@@ -1,0 +1,53 @@
+body {
+    background-image: url('images/stars.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 4rem;
+    text-shadow: 7px 5px rgb(137, 60, 167);
+}
+
+.keys {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+
+.key {
+    border: 4px solid white;
+    border-radius: .5rem;
+    width: 10rem;
+    padding: 2% 0;
+    transition: all .07s ease;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+kbd {
+    display: block;
+    padding-bottom: 4%;
+}
+
+.sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #a02cc7;
+    box-shadow: 0 0 1rem #a02cc7;
+}
